@@ -1,0 +1,18 @@
+---
+title: "Project_Conclusions"
+author: "Nicole Shaver"
+date: "February 8, 2017"
+output: html_document:
+   Keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Findings from study of homes data
+
+Examining the data provided in http://www1.nyc.gov/home/search/index.page?search-terms=Rolling+sales+update of rolling home sales in the neighborhood of Brooklyn, we we find a correlation between the gross square footage of a property and the sale price; the larger the home, the higher the sale price. In the complete dataset however, there are some low outliers of properties between 3000 and 4000 square feet which have lower than expected sale prices.The root cause of those lower sale prices could be a topic for further study.
+
+Restricting the dataset to just single family homes, we see that the low outliers are gone, and that there is a general increase in sale price with higher square footage. However it seems that at the higher end of the home size, there is more spread in the data and the correlation is not as clearly linear.
+

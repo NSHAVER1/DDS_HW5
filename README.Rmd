@@ -1,0 +1,23 @@
+---
+title: "README"
+author: "Nicole Shaver"
+date: "February 8, 2017"
+output: html_document:
+   Keep_md: true
+---
+
+## Project Purpose
+The purpose of this project is to demonstrate that we can use R code to upload data from a .csv file, clean the data, make plots and draw conclusions. We will graphically examine whether sale price correlates to gross square feet for all home sales and for single family homes.
+
+##Files description
+Directory-data
+File-rollingsales_brooklyn.csv-this is the raw data (in csv format) used in the analysis. The file is downloaded from this webpage:  http://www1.nyc.gov/home/search/index.page?search-terms=Rolling+sales+update.  It contains data about home sales in the Brooklyn neighborhood in New York City.
+
+Directory-paper
+File-Project_Conclusions.Rmd-This file contains a summary of our findings and conclusions from the data analysis.
+
+Directory-source
+File-R_rollingsales_brooklyn.R-This file contains the R code that clean up the input csv data. The clean up includes finding out where there are outliers or missing values, deciding how you will treat them, making sure values you think are numerical are being treated as such (correct R class), etc.
+
+Directory-root
+File-REAMDE.rmd-this file, which describes the purpose of the project, and the directories and files in the project.
