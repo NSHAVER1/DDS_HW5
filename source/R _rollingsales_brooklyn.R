@@ -57,7 +57,7 @@ dim(bk.homes)
 
 # TODO: complete plot() with log10 of bk.homes$gross.sqft,bk.homes$sale.price.n
 #   as above "bk.sale"
-plot(x=log10(bk.homes$gross.sqft), y=bk.homes$sale.price.n, xlab="gross sqft", ylab="home sale price", main="Price vs Sqft")
+plot(x=log10(bk.homes$gross.sqft), y=log10(bk.homes$sale.price.n), xlab="gross sqft", ylab="home sale price", main="Price vs Sqft")
 summary(bk.homes[which(bk.homes$sale.price.n<100000),])
 
 
